@@ -48,11 +48,5 @@ public class Location {
         return (c * r);
     }
 
-    @Override
-    public String toString() {
-        return "Location{" +
-                "latitude=" + latitude +
-                ", longtitude=" + longitude +
-                '}';
-    }
+
 }

@@ -5,11 +5,11 @@ public class Employee {
     private String firstName;
     private String lastName;
     private String gender;
-    private int checkPartner ;
+    private int checkPartner;
     private String partner;
     private double latitude;
     private double longitude;
-   private double distance ;
+    private double distance;
 
     public double getDistance() {
         return distance;
@@ -42,7 +42,6 @@ public class Employee {
     }
 
 
-
     public double getLatitude() {
         return latitude;
     }
@@ -65,18 +64,6 @@ public class Employee {
 
     public void setPartner(String partner) {
         this.partner = partner;
-    }
-
-    public Employee() {
-    }
-
-    public Employee(String gender, String firstName, String lastName, int id, double latitude, double longitude) {
-        this.gender = gender;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.id = id;
-        this.latitude = latitude;
-        this.longitude = longitude;
     }
 
 
